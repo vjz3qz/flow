@@ -1,6 +1,6 @@
 import { Router } from "express";
 var router = Router();
-import usersController from "../controllers/users";
+import exercisesController from "../controllers/exercises";
 
 /* GET users listing. */
 router.get("/", function (req, res) {
