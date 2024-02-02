@@ -3,13 +3,22 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
-  }
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "description": "backend for flow",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjz3qz/flow.git"
+  },
+  "author": "Varun Pasupuleti and Sunny Chanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjz3qz/flow/issues"
+  },
+  "homepage": "https://github.com/vjz3qz/flow#readme"
 }
