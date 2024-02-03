@@ -1,7 +1,7 @@
 -- Insert into users
-insert into users (name, username, password) values 
-('John Doe', 'johndoe', 'password123'),
-('Jane Doe', 'janedoe', 'password123');
+insert into users (name, email, password) values 
+('John Doe', 'john.doe@example.com', 'password123'),
+('Jane Doe', 'jane.doe@example.com', 'password123');
 
 -- Insert into workouts
 insert into workouts (name, user_id) values 

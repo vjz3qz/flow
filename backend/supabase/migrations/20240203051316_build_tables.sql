@@ -1,7 +1,7 @@
 create table if not exists users (
     id serial,
     name varchar(255),
-    username varchar(255) unique,
+    email varchar(255) unique,
     password varchar(255),
     primary key (id)
 );
