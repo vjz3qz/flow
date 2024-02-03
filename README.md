@@ -151,7 +151,3 @@ The API design for the workout app includes the following endpoints:
   - **View food log by user and date**: Retrieves information about all food logs for a specific user and date.
   - **Update food log**: Updates food data for a specific food.
   - **Delete food log**: Deletes food data for a specific food.
-
-  TODO add running work out support
-  TODO add apple watch support
-  TODO add water logging
