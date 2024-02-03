@@ -5,7 +5,7 @@ import logger from "morgan";
 import usersRouter from "./routes/users";
 import workoutRouter from "./routes/workouts";
 import exerciseRouter from "./routes/exercises";
-import repsRouter from "./routes/reps";
+import workoutLogRouter from "./routes/workoutLogs";
 
 import dotenv from "dotenv";
 import cors from "cors";
@@ -22,7 +22,7 @@ app.use(urlencoded({ extended: false }));
 app.use("/api/v1/users", usersRouter);
 app.use("/api/v1/workouts", workoutRouter);
 app.use("/api/v1/exercises", exerciseRouter);
-app.use("/api/v1/reps", repsRouter);
+app.use("/api/v1/workout-log", workoutLogRouter);
 
 app.listen(process.env.PORT || 5000, () => {
   if (process.env.PORT) {
